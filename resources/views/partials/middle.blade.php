@@ -100,6 +100,7 @@
 	.middle .text-muted.profit {
 		color:#e67e22 !important;
 	}
+  
  .quote{
      
      font-family: 'Jura', sans-serif;
