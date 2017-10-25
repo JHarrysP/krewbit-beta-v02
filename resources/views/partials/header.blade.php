@@ -1,7 +1,7 @@
 <div id="home" class="header">
   <div class="row heading text-center">
     <div class="col-md-12 vertical-center">
-    <img class="logo" src="/img/krew_logo.png"  style="width: 50%">
+    <img class="logo" src="/img/brandheader.png"  style="width: 50%">
     </div>
   </div>
  <div class="container">
