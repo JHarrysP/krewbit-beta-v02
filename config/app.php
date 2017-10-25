@@ -104,7 +104,7 @@ return [
     |
     */
 
-    'key' => 'my encryption key'
+    'key' => 'my encryption key',
 
     'cipher' => 'AES-256-CBC',
 
