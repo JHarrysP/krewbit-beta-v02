@@ -93,7 +93,7 @@
                            El fácil acceso a la información a través de la red vuelve indispensable poseer una Identidad Digital...
                         </p>
                         <p  style="font-size: .9rem; color: #ff3366;">
-                            Nuestro trabajo no sólo implica crear una buena imagen, también nos enfocamos en hacer de tu web un lugar fácil de encontrar.
+                            Nuestro trabajo no sólo implica crear una buena imagen, también nos enfocamos en hacer de tu sitio web un lugar fácil de encontrar.
                         </p>
 
        <span style="font-size: 2.5em;"><i class="nc-icon nc-globe pt-3"></i></span>
