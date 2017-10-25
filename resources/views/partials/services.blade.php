@@ -1,0 +1,196 @@
+
+<div class="container bottom pt-0">
+<div class="d-flex justify-content-center ">
+<div class="row"">
+
+         <div class="card text-center">
+        <div class="card-body mb-0">
+          <h2 class="card-title mb-0 pb-3" style=" text-transform: uppercase; color: #3498db;">Desarrollo de Imagen</h2>
+          <span><i class="nc-icon nc-minimal-down d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span>
+
+
+          
+
+
+        </div>
+    
+      </div>
+
+
+</div>
+</div>
+</div>
+
+<hr style="border-bottom:#34495e solid 1px;">
+<div class="container bottom pt-1 mb-5">
+        
+<div class="row justify-content-center mt-5">
+    <div class="col-md-12">
+        <div class="card card-services text-center">
+          <div class="card-header" style="border-bottom-color:  #212529;">
+            Diséño (Mockup)
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Unión de Propuestas</h4>
+            <p class="card-description">
+              Tu imagen debe ir más allá de un logo, por eso te ayudamos a encontrar la armonia gráfica que necesitas...
+          </p>
+          <p  style="font-size: .9rem; color: #ff3366;">
+           Cada aspecto de tu página debe sentirse como parte de un todo. Se definen las proporciones, colores y fuentes de cada elemento.
+       </p>
+       <span style="font-size: 2.5em;"><i class="nc-icon nc-layout-11 pt-3"></i></span>
+   </div>
+   <div class="card-footer text-muted" style="border-top-color: #212529;">
+    "Autenticidad de marca es la clave del éxito"
+    </div>
+    </div>
+    </div>
+</div>
+
+
+    <br><hr><br>
+
+    
+   <div class="row justify-content-center">
+    <div class="col-md-12">
+        <div class="card card-services text-center">
+          <div class="card-header" style="border-bottom-color:  #212529;">
+            Desarrollo (UI/UX)
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Imagen Digital</h4>
+            <p class="card-description">
+             Una interfaz de usuario adecuada y fluida es fundamental para capturar la atención...
+         </p>
+         <p  style="font-size: .9rem; color: #ff3366;">
+            Creamos la experiencia de usuario apropiada para que tu página cause la impresion deseada en los clientes que buscas.
+        </p>
+
+        <span style="font-size: 2.5em;"><i class="nc-icon nc-tile-56"></i></span>
+    </div>
+    <div class="card-footer text-muted" style="border-top-color: #212529;">
+        "Tu tarjeta de presentación al publico en linea"
+    </div>
+</div>
+</div>
+</div>
+
+  
+
+
+   <br><hr><br>
+
+
+<div class="row justify-content-center">
+    <div class="col-md-12">
+        <div class="card card-services text-center">
+          <div class="card-header" style="border-bottom-color:  #212529;">
+            Tecnología (SEO)
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Presencia en la web</h4>
+ <p class="card-description">
+                           El fácil acceso a la información a través de la red vuelve indispensable poseer una Identidad Digital...
+                        </p>
+                        <p  style="font-size: .9rem; color: #ff3366;">
+                            Nuestro trabajo no sólo implica crear una buena imagen, también nos enfocamos en hacer de tu web un lugar fácil de encontrar.
+                        </p>
+
+       <span style="font-size: 2.5em;"><i class="nc-icon nc-globe pt-3"></i></span>
+   </div>
+   <div class="card-footer text-muted" style="border-top-color: #212529;">
+    "Tener un espacio en la red es imprescindible"
+    </div>
+    </div>
+    </div>
+</div>
+
+  <br><hr><br>
+
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+        <div class="card card-services text-center">
+          <div class="card-header" style="border-bottom-color:  #212529;">
+            Actualizacion y Migración (Framework & Database)
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Ultimas Tendencias</h4>
+ <p class="card-description">
+                           La web evoluciona constantemente y con ello las tecnologias que utiliza...
+                        </p>
+                        <p  style="font-size: .9rem; color: #ff3366;">
+                            Tener tu sitio actualizado en codigo y diseño  facilitara el acceso y la utilizacion del mismo.
+                        </p>
+
+       <span style="font-size: 2.5em;"><i class="nc-icon nc-settings pt-3"></i></span>
+   </div>
+   <div class="card-footer text-muted" style="border-top-color: #212529;">
+    "Un gran diseño sin funcionalidad es como un auto deportivo sin motor"
+    </div>
+    </div>
+    </div>
+</div>
+
+</div>
+
+<style>
+
+  .bottom{
+    color: #ecf0f1;
+    font-family: 'Rajdhani',sans-serif;
+
+  }
+    .nc-icon{
+        color: #212529;
+    }
+    .bottom .card{
+       background-color: transparent;
+      -webkit-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+      -moz-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+      -o-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+      -ms-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+      transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+        
+        
+    }
+    
+    .bottom .card.card-img{
+     border:none;
+     border-radius: 0;
+        
+    }
+
+    .bottom .card.card-services{
+        border-color: #212529;
+    }
+
+    .bottom .card-body p{
+        color: #c3c3c3;
+    }
+    
+    .bottom .card-title {
+      color: #3498db;
+    } 
+
+    .bottom .card h4 {
+        color: #34495e;
+    font-family: 'Jura', sans-serif;
+    }
+    
+    .bottom .card-footer{
+        color: #c3c3c3;
+    }
+    .bottom .text-muted{
+       font-family: 'Jura', sans-serif; 
+       font-weight: bolder;
+    }
+
+  .bottom .quote{
+     
+     font-family: 'Jura', sans-serif;
+     font-size: .9rem;
+     color: #c3c3c3;
+     
+  }
+
+</style>
