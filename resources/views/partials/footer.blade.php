@@ -12,7 +12,7 @@
 
 			<div class="col-md-4">
 				<img src="/img/brandfoot.png" alt="">
-				<p class="pl-5 my-1">#digital enginnering<span><i class="nc-icon nc-minimal-up d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span></p>
+				<p class="pl-5 my-1">#digital enginnering<span><i class="nc-icon nc-minimal-left d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span></p>
 				
 			</div>
 		</div>
