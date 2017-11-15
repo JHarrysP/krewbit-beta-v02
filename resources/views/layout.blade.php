@@ -12,12 +12,12 @@
         <link href="https://fonts.googleapis.com/css?family=Jura:400,500,600|Michroma|Rajdhani:400,500,600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Mono" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{URL::asset('css/normalize.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/demo.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/nucleo-icons.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/shatter.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/keyboard.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/bootstrap.offcanvas.css')}}">
+        <link rel="stylesheet" href="{{URL::secure_asset('css/normalize.css')}}">
+        <link rel="stylesheet" href="{{URL::secure_asset('css/demo.css')}}">
+        <link rel="stylesheet" href="{{URL::secure_asset('css/nucleo-icons.css')}}">
+        <link rel="stylesheet" href="{{URL::secure_asset('css/shatter.css')}}">
+        <link rel="stylesheet" href="{{URL::secure_asset('css/keyboard.css')}}">
+        <link rel="stylesheet" href="{{URL::secure_asset('css/bootstrap.offcanvas.css')}}">
         <script>document.documentElement.className = 'js';</script>
     </head>
     <body data-spy="scroll" data-target=".navbar">
@@ -30,14 +30,14 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<script src="{{URL::asset('js/imagesloaded.pkgd.min.js')}}" type="text/javascript"></script>
-<script src="{{URL::asset('js/anime.min.js')}}" type="text/javascript"></script>
-<script src="{{URL::asset('js/charming.min.js')}}" type="text/javascript"></script>
-<script src="{{URL::asset('js/binary.js')}}" type="text/javascript"></script>
-<script src="{{URL::asset('js/pieces.js')}}" type="text/javascript"></script>
-<script src="{{URL::asset('js/main.js')}}" type="text/javascript"></script>
-<script src="{{URL::asset('js/keyboard.js')}}" type="text/javascript"></script>
-<script src="{{URL::asset('js/bootstrap.offcanvas.min.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/imagesloaded.pkgd.min.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/anime.min.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/charming.min.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/binary.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/pieces.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/main.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/keyboard.js')}}" type="text/javascript"></script>
+<script src="{{URL::secure_asset('js/bootstrap.offcanvas.min.js')}}" type="text/javascript"></script>
 
 
 
