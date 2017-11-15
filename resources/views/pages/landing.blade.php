@@ -2,6 +2,7 @@
 
 @section('body')
 
+
 	@include('partials.navbar')
 
 	@include('partials.header')

@@ -6,7 +6,7 @@
         </div>
         <div class="card-body">
           <h2 class="card-title" style="text-transform: uppercase; color: #3498db;">Identidad Digital</h2>
-          <span><i class="nc-icon nc-minimal-down d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span>
+          <span ><i class="nc-icon nc-minimal-down d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span>
           
         </div>
       </div>
@@ -14,21 +14,21 @@
   </div>
         <hr style="border-bottom:#34495e solid 1px;">
         
-  <div id="services" class="container middle mt-5 mb-0">
+  <div class="container middle mt-5 mb-0">
     <p class="card-text text-center pt-0" >Ventajas y Benefícios</p>
     <div class="d-flex justify-content-center">
       <div class="card text-center">
         <div class="card-body">
           <!-- cards -->
 
-           <div id="services" class="container middle  mb-0">
+       
           <div class="card-deck pt-2">
             <div class="card pt-5 pb-4">
-              <span><i class="nc-icon x3 nc-spaceship"></i></span>
+              <span ><i class="nc-icon x3 nc-spaceship"></i></span>
               <div class="card-body">
-                <h4 class="card-title">Alcance</h4>
-                <p class="card-text ">La imagen de tu empresa en la web genera curiosidad e impacto inmediato para que el público quiera saber más.</p>
-                <p class="card-text"><small class="text-muted profit">Ocupas un lugar en la mente del público</small></p>
+                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name">Alcance</h4>
+                <p class="card-text item_content" data-glitch>La imagen de tu empresa en la web genera curiosidad e impacto inmediato para que el público quiera saber más.</p>
+                <p class="card-text"><small class="text-muted profit">Ocupas un lugar en la mente del cliente</small></p>
               </div>
             </div>
             <div class="card pt-5 pb-4">
@@ -36,7 +36,7 @@
               <div class="card-body">
                 <h4 class="card-title">Posicionamiento</h4>
                 <p class="card-text ">Tu identidad digital crea nuevas tendencias para que el consumidor sienta empatía y sea fiel a tu marca.</p>
-                <p class="card-text"><small class="text-muted profit">Diferencias tu marca de la competencia</small></p>
+                <p class="card-text"><small class="text-muted profit">Diferencias tu empresa de la competencia</small></p>
               </div>
             </div>
             <div class="card pt-5 pb-4">
@@ -49,13 +49,13 @@
             </div>
           </div>
           <!-- cards end -->
-        </div>
+       
       </div>
     </div>
   </div>
 </div>
     <div class="text-center mt-5 mb-4 quote">
-       <p class="mb-0">Tu sitio web te promueve <strong style="color: #3498db;">24/7</strong>.</p>
+       <p class="mb-0 active">Tu sitio web te promueve <strong style="color: #3498db;">24/7</strong>.</p>
           <footer class="blockquote-footer"><cite title="Source Title">Krewbit</cite></footer>
     </div>
  
@@ -85,9 +85,9 @@
 		border-color: #212529;
 	}
 
-	.middle .card-body p{
-		color: #c3c3c3;
-	}
+
+
+
 	.middle .card-title {
     text-transform: uppercase;
   }

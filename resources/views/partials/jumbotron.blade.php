@@ -1,6 +1,6 @@
 <div class="jumbotron text-center mb-0">
   <h1 class="display-5">LA PRIMERA IMPRESION QUEDA</h1>
-  <p class="lead">Tu <em>Identidad Digital</em> te permite ser reconocido.</p>
+  <p class="lead">Tu <em >Identidad Digital</em> te permite ser reconocido.</p>
  <div class="row">
  <div class="col-md-3"></div>
  	 <div class="offset-md-5 col-md-6 mt-1">
