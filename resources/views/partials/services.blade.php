@@ -163,13 +163,14 @@
 
     .bottom .card.card-services{
         border-color: #212529;
+          background: rgb(69,72,77);
+background: -moz-linear-gradient(top, rgba(69,72,77,.3) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(top, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
     }
 
 
-    .sub-title{
-     
-
-    }
 
     .bottom .card-body p{
         color: #c3c3c3;

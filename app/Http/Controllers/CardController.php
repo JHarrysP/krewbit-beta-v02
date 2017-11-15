@@ -11,10 +11,10 @@ class CardController extends Controller
     public function index(){
 
 
-    	$cards = Card::all();
+    	// $cards = Card::all();
 
 
-    	return view('pages.landing', compact('cards'));
+    	return view('pages.landing');
 
     }
 }

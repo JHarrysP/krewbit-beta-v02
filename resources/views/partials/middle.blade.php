@@ -34,16 +34,16 @@
             <div class="card pt-5 pb-4">
               <span><i class="nc-icon x3 nc-tag-content"></i></span>
               <div class="card-body">
-                <h4 class="card-title">Posicionamiento</h4>
-                <p class="card-text ">Tu identidad digital crea nuevas tendencias para que el consumidor sienta empatía y sea fiel a tu marca.</p>
+                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name">Posicionamiento</h4>
+                <p class="card-text item_content" data-glitch>Tu identidad digital crea nuevas tendencias para que el consumidor sienta empatía y sea fiel a tu marca.</p>
                 <p class="card-text"><small class="text-muted profit">Diferencias tu empresa de la competencia</small></p>
               </div>
             </div>
             <div class="card pt-5 pb-4">
               <span><i class="nc-icon x3 nc-money-coins"></i></span>
               <div class="card-body">
-                <h4 class="card-title">Productividad</h4>
-                <p class="card-text ">El público esta dispuesto a pagar un plus de marca, ya que tu identidad digital sería una garantía de calidad superior</p>
+                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name">Productividad</h4>
+                <p class="card-text item_content" data-glitch>El público esta dispuesto a pagar un plus de marca, ya que tu identidad digital sería una garantía de calidad superior</p>
                 <p class="card-text"><small class="text-muted profit">Obtienes mayores ingresos</small></p>
               </div>
             </div>
@@ -83,6 +83,11 @@
 	
 	.middle .card-deck .card{
 		border-color: #212529;
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(69,72,77,.3) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 );
 	}
 
 

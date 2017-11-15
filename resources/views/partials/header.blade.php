@@ -51,19 +51,18 @@
        <div class="pieces" style="background-image: url(/img/brandheader.jpg)"></div>
           <div class="menu" style="font-family: 'Roboto Mono', monospace; font-size: 1em; text-transform: lowercase; color:#585656" >
             <ul class="menu__inner">
-              <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>On Interface Design</a></li>
-              <li class="menu__item"><a class="menu__link" data-switch>Portfolio</a></li>
-              <li class="menu__item active"><a class="menu__link" data-switch>Case Studies</a></li>
-              <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>Musings</a></li>
+              <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>Diseño de Interfaces</a></li>
+              <li class="menu__item"><a class="menu__link" data-switch>Portafolio</a></li>
+              <li class="menu__item active"><a class="menu__link" data-switch>Proyectos</a></li>
+              <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>Inspiraciones</a></li>
             </ul>
           </div>
           <div class="menu menu--code" style="display: none;">
             <ul class="menu__inner">
               <li class="menu__item"><a class="menu__link" data-switch>On Coding</a></li>
-              <li class="menu__item"><a class="menu__link" data-switch>Experiments</a></li>
-              <li class="menu__item"><a class="menu__link" data-switch>Current Projects</a></li>
-              <li class="menu__item"><a class="menu__link" data-switch>Tutorials</a></li>
-              <li class="menu__item"><a class="menu__link" data-switch>> Find me on GitHub</a></li>
+              <li class="menu__item"><a class="menu__link" data-switch>DBA: Data Base Admin</a></li>
+              <li class="menu__item"><a class="menu__link" data-switch>SysAdmin</a></li>
+              <li class="menu__item"><a class="menu__link" data-switch>Inducciones</a></li>
             </ul>
           </div>
           <div class="content__bottom">
@@ -72,7 +71,7 @@
               <a id="open" class="switch__item"><span class="mode mode--design active" data-switch data-glitch>Programación</span><strong class="d-inline pl-1 bar-code">█</strong></a>
             </div>
             <div class="link-wrap">
-              <a class="contact-link mode mode--design" data-switch data-glitch>Work with me</a>
+              <a class="contact-link mode mode--design" data-switch data-glitch>Work with us / Trabaja con nosotros</a>
             </div>
           </div>
       <div class="container" style="z-index: 2; color: #bdc3c7;">
