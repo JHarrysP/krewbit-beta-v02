@@ -56,7 +56,7 @@
             const hoverTrigger = document.querySelector('.hover');
 
             const showOptions = () => {
-            
+                ev.preventDefault();
                 menuEl.classList.add('page-nav--open');
                 hoverTrigger.classList.add('hover--open');
 
