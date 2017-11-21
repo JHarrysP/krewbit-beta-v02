@@ -51,7 +51,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 		color: rgba(41, 128, 185,.7);
  	    text-transform: uppercase;
  	    font-size: .7rem;
- 	    border: solid 1px transparent;
+ 	    border: solid 1px rgba(41, 128, 185,.7);
 	}
 
 	.btn-header:hover{
