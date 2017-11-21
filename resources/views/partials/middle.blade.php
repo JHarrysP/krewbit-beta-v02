@@ -82,12 +82,12 @@
 	}
 	
 	.middle .card-deck .card{
-		border-color: #212529;
+		border-color: rgba(41, 128, 185,.7);
     background: rgb(0,0,0);
-background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(69,72,77,.3) 100%);
-background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
-background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 );
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(69,72,77,.3) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 );
 	}
 
 
@@ -95,10 +95,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 	.middle .card-title {
     text-transform: uppercase;
+    
   }
 
 	.middle .card h4 {
-		color: #34495e;
+		color: rgba(41, 128, 185,.7);
     font-family: 'Jura', sans-serif;
 	}
 

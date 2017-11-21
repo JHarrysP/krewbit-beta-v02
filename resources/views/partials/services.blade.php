@@ -162,12 +162,12 @@
     }
 
     .bottom .card.card-services{
-        border-color: #212529;
+        border-color: rgba(41, 128, 185,.7);
           background: rgb(69,72,77);
-background: -moz-linear-gradient(top, rgba(69,72,77,.3) 0%, rgba(0,0,0,1) 100%);
-background: -webkit-linear-gradient(top, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
-background: linear-gradient(to bottom, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+          background: -moz-linear-gradient(top, rgba(69,72,77,.3) 0%, rgba(0,0,0,1) 100%);
+          background: -webkit-linear-gradient(top, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
+          background: linear-gradient(to bottom, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
     }
 
 
@@ -181,7 +181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
     } 
 
     .bottom .card h4 {
-        color: #34495e;
+        color: rgba(41, 128, 185,.7);
     font-family: 'Jura', sans-serif;
     }
     
