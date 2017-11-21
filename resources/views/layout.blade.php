@@ -190,8 +190,7 @@
             };
                         const rearrangeTiles = (ev) => {
                 ev.preventDefault();
-                menuEl.classList.remove('page-nav--open');
-                 hoverTrigger.classList.add('hover--open');
+             
 
                 piecesObj.animate({
                     duration: 600,
