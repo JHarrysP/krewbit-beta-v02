@@ -45,16 +45,20 @@
         {
         
 
-            const piecesEl = document.querySelector('.content .pieces');
+            const piecesEl = document.querySelector('.content .tiles');
             const piecesObj = new Pieces(piecesEl, {
                  pieces: {rows: 14, columns: 12}
             });
             const menuEl = document.querySelector('.page-nav');
             const optionsCtrl = document.querySelector('#open');
             const closeOptionsCtrl = document.querySelector('#close');
+            const hoverItem = document.querySelector('.dummy--code');
+            const hoverTrigger = document.querySelector('.hover');
 
             const showOptions = () => {
             
+                menuEl.classList.add('page-nav--open');
+                hoverTrigger.classList.add('hover--open');
 
                 piecesObj.animate({
                     duration: 3000,
@@ -106,7 +110,8 @@
 
             const hideOptions = (ev) => {
                 ev.preventDefault();
-               
+                menuEl.classList.remove('page-nav--open');
+                 hoverTrigger.classList.remove('hover--open');
 
                 piecesObj.animate({
                     duration: 600,
@@ -183,10 +188,37 @@
 
         
             };
+                        const rearrangeTiles = (ev) => {
+                ev.preventDefault();
+                menuEl.classList.remove('page-nav--open');
+                 hoverTrigger.classList.add('hover--open');
+
+                piecesObj.animate({
+                    duration: 600,
+                    delay: (t,i) => {
+                        const elBounds = piecesEl.getBoundingClientRect();
+                        const x1 = elBounds.left + elBounds.width/2;
+                        const y1 = elBounds.top + elBounds.height/2;
+                        const x2 = t.dataset.centerx;
+                        const y2 = t.dataset.centery;
+                        const dist = Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+                        const maxDist = Math.sqrt(Math.pow(elBounds.left-x1,2) + Math.pow(elBounds.top-y1,2));
+                        const maxDelay = 800;
+
+                        return maxDelay/maxDist*dist;
+                    },
+                    easing: [0.1,1,0,1],
+                    translateX: 0,
+                    translateY: 0,
+                    opacity: 1
+                });
+            };
 
             optionsCtrl.addEventListener('click', showOptions);
             closeOptionsCtrl.addEventListener('click', hideOptions);
-            // optionsCtrl.addEventListener('mouseleave', randomizeTilts);
+            hoverItem.addEventListener('mouseenter', randomizeTilts);
+            hoverTrigger.addEventListener('mouseenter', randomizeTilts);
+            hoverTrigger.addEventListener('mouseleave', rearrangeTiles);
         }
         </script>
 </html>

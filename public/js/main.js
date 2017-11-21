@@ -538,10 +538,10 @@
 				playFxFn();
 			  };
 		
-		DOM.contact.el.addEventListener('mouseenter', contactMouseEnterEvFn);
-		DOM.contact.el.addEventListener('mouseleave', contactMouseLeaveEvFn);
-		DOM.switchCtrls.addEventListener('mouseenter', switchMouseEnterEvFn);
-		DOM.switchCtrls.addEventListener('mouseleave', switchMouseLeaveEvFn);
+		// DOM.contact.el.addEventListener('mouseenter', contactMouseEnterEvFn);
+		// DOM.contact.el.addEventListener('mouseleave', contactMouseLeaveEvFn);
+		// DOM.switchCtrls.addEventListener('mouseenter', switchMouseEnterEvFn);
+		// DOM.switchCtrls.addEventListener('mouseleave', switchMouseLeaveEvFn);
 	}
 
 	function switchMode(ev) {
@@ -559,8 +559,8 @@
 
 		if( mode === 'code' ) {
 			disablePageFx = true;
-			pm.removeTilt();
-			pm.stopLoopFx();
+			// pm.removeTilt();
+			// pm.stopLoopFx();
 			gfx.stopGlitch();
 		}
 		
@@ -575,8 +575,8 @@
 		pm.animatePieces(mode === 'code' ? 'out' : 'in', function() {
 			isAnimating = false;
 			if( mode === 'design' ) {
-				pm.initTilt();
-				pm.loopFx();
+				// pm.initTilt();
+				// pm.loopFx();
 				gfx.glitch();
 				disablePageFx = false;
 			}

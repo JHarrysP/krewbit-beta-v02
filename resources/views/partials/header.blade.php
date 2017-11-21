@@ -10,6 +10,7 @@
       </symbol>
     </svg>
     <main >
+      <div class="pieces"></div>
       <!-- <div class="pieces" style="background-image: url(/img/brandheader.jpg)" data-img-alt="url(/img/alt.jpg)" data-img-code="url(/img/bin.jpg)"></div> -->
       <div class="overlay overlay--hidden"></div>
       <div class="content">
@@ -30,7 +31,7 @@
             <div class="container">
              <div class="row justify-content-center">
                <div class="col-md-6">
-                 <div class="pb-2">
+            <div class="pb-2 dummy--code">
               <p>HTMLElement.prototype.center = function(){</p>
               <p>var  w = document.documentElement.clientWidth,</p>  
               <p class="pl-4">&nbsp;h = document.documentElement.clientHeight;</p>
@@ -48,7 +49,8 @@
              </div>
           </div>
           </nav>
-       <div class="pieces" style="background-image: url(/img/brandheader.jpg)"></div>
+<div class="hover"></div>
+       <div class="tiles" style="background-image: url(/img/brandheader.jpg)"></div>
           <div class="menu" style="font-family: 'Roboto Mono', monospace; font-size: 1em; text-transform: lowercase; color:#585656" >
             <ul class="menu__inner">
               <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>Diseño de Interfaces</a></li>

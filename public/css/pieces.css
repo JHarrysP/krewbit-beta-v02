@@ -1,6 +1,6 @@
-.pieces {
-	width: 90vh; /* make the size of container to be same ratio like image; will be reset dynamically */
-	height: 90vh;  /* will be reset dynamically */
+/*.pieces {
+	width: 90vh;
+	height: 90vh;  
 	margin: auto;
 	flex: none;
 	position: relative;
@@ -15,10 +15,10 @@
 	pointer-events: none;
 }
 
-/* Media query */
+
 @media screen and (max-aspect-ratio: 1000/1000) {
 	.pieces {
 		width: 80vw;
 		height: 122.75vw;
 	}
-}
+}*/
