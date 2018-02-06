@@ -68,7 +68,7 @@
 
   }
 	.nc-icon{
-		color: #212529;
+		color: #95a5a6;
 	}
 	.middle .card{
 		background-color: transparent;
@@ -123,5 +123,56 @@
   -moz-transform: translateY(-10px);
 }
 
+@media (max-width: 49em) {
+
+  .middle .card {
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+
+  .middle .card-deck .card:first-child{
+    
+    border-bottom-left-radius:0; 
+    border-bottom-right-radius:0;
+
+  }
+
+    .middle .card-deck .card:last-child {
+    
+    border-top-left-radius:0; 
+    border-top-right-radius:0;
+    background: rgb(69,72,77);
+    background: -moz-linear-gradient(top, rgba(69,72,77,.3) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+
+  }
+
+    .middle .card-deck .card:not(:first-child):not(:last-child){
+    
+      border-radius:0; 
+      border-bottom-color: transparent;
+      border-top-color: transparent;
+      background: rgba(69,72,77,.3);
+   
+  }
+
+
+
+
+
+
+  
+}
 
 </style>

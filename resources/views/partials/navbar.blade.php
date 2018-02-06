@@ -267,25 +267,29 @@
   }
 }
 }
-@media (max-width: 49em) {
+@media (max-width: 50em) {
 	   .navbar-offcanvas{
 
-   	background-color: #000;
-   	color: #ecf0f1;
+   	background-color: #ecf0f1;
+   	color: #313131;
    	font-weight: lighter;
    	font-family: 'Jura', sans-serif;
    	font-size: .8rem;
     overflow:hidden;
 
    }
+   .navbar-dark .navbar-nav .nav-link.active{
+    color: #2c3e50;
+   }
 
-  .navbar-nav .nav-link {
+  .navbar-dark .navbar-nav .nav-link {
 
-  color: #ecf0f1;
-  background-color: #000;
+  color: #2980b9;
+
  
   
   }	
+
 	
 }
 </style>

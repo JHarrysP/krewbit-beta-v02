@@ -1,19 +1,13 @@
 
 <div class="container bottom pt-0">
-<div class="d-flex justify-content-center ">
-<div class="row"">
+<div class="d-flex justify-content-center">
+<div class="row">
 
-         <div class="card text-center">
+       <div class="card text-center">
         <div class="card-body mb-0">
           <h2 class="card-title mb-0 pb-3" style=" text-transform: uppercase; color: #3498db;">Desarrollo de Imagen</h2>
           <span><i class="nc-icon nc-minimal-down d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span>
-
-
-          
-
-
-        </div>
-    
+        </div> 
       </div>
 
 
@@ -23,8 +17,9 @@
 
 <hr style="border-bottom:#34495e solid 1px;">
 <div class="container bottom pt-1 mb-5">      
-<div class="row  mt-5 justify-content-center">
-   <div class="binary mt-0 mb-5" data-glitch>
+<div class="row mt-5 justify-content-center">
+<div class="col-md-12 text-center">
+     <div class="binary mt-0 mb-5" data-glitch>
                   <h4 class="card-title">diseño</h4>
                   <h4 class="card-title">101010101</h4>
                   <h4 class="card-title">design</h4>
@@ -32,7 +27,7 @@
 <div class="card-group">
      
         <div class="card card-services text-center">
-          <div class="card-header" style="border-bottom-color:  #212529;">(Mockup)</div>
+          <div class="card-header" style="border-bottom-color:#212529;">(Mockup)</div>
         <div class="card-body">
             <h4 class="card-title">Unión de Propuestas</h4>
             <p class="card-description">
@@ -50,7 +45,7 @@
   
 
         <div class="card card-services text-center">
-          <div class="card-header" style="border-bottom-color:  #212529;">(UI/UX)</div>
+          <div class="card-header" style="border-bottom-color:#212529;">(UI/UX)</div>
         <div class="card-body">
             <h4 class="card-title" data-glitch>Imagen Digital</h4>
             <p class="card-description">
@@ -69,6 +64,7 @@
 
 </div>
 </div>
+</div>
 
 
 
@@ -78,7 +74,8 @@
 </div> -->
 
 <div class="row mt-5 justify-content-center">
- <div class="binary mt-0 mb-5" data-glitch>
+  <div class="col-md-12 text-center">
+     <div class="binary mt-0 mb-5" data-glitch>
                   <h4 class="card-title">Programación</h4>
                   <h4 class="card-title">101010101</h4>
                   <h4 class="card-title">Coding</h4>
@@ -124,6 +121,7 @@
     </div>
 
 </div>
+  </div>
 </div>
 
   <br><hr><br>
@@ -141,9 +139,7 @@
     font-family: 'Rajdhani',sans-serif;
 
   }
-    .nc-icon{
-        color: #212529;
-    }
+
     .bottom .card{
        background-color: transparent;
       -webkit-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
@@ -162,7 +158,7 @@
     }
 
     .bottom .card.card-services{
-        border-color: rgba(41, 128, 185,.7);
+          border-color: rgba(41, 128, 185,.7);
           background: rgb(69,72,77);
           background: -moz-linear-gradient(top, rgba(69,72,77,.3) 0%, rgba(0,0,0,1) 100%);
           background: -webkit-linear-gradient(top, rgba(69,72,77,.3) 0%,rgba(0,0,0,1) 100%);
@@ -200,5 +196,40 @@
      color: #c3c3c3;
      
   }
+  @media (max-width: 49em) {
+
+
+   .bottom .card.card-services:first-child{
+
+    border-top-left-radius:5px; 
+    border-top-right-radius:5px;
+    border-bottom-left-radius:0; 
+    border-bottom-right-radius:0;
+    border-bottom-color: transparent;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(69,72,77,.3) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 );
+
+  }
+
+     .bottom .card.card-services:last-child {
+    
+    border-top-left-radius:0; 
+    border-top-right-radius:0;
+
+  }
+
+     .bottom .card.card-services:not(:first-child):not(:last-child){
+    
+      border-radius:0; 
+      border-bottom-color: transparent;
+      border-top-color: transparent;
+      background: rgba(69,72,77,.3);
+   
+  }
+  
+}
 
 </style>
