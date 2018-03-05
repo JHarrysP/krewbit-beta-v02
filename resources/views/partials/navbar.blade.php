@@ -49,11 +49,11 @@
   border-bottom-color: #fff;
   }
 
-   p a {
+/*   p a {
   	 animation: text-flicker 20s linear infinite;
   	 
 
-  }
+  }*/
 
 
  .active{

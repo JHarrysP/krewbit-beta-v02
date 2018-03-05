@@ -15,7 +15,7 @@
 </div>
 </div>
 
-<hr style="border-bottom:#34495e solid 1px;">
+
 <div class="container bottom pt-1 mb-5">      
 <div class="row mt-5 justify-content-center">
 <div class="col-md-12 text-center">

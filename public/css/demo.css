@@ -21,15 +21,12 @@ main {
 }
 
 a {
+	color: #fff;
 	text-decoration: none;
-	color: #6dcc9e;
 	outline: none;
 	cursor: pointer;
 }
 
-a:hover {
-	color: #fff;
-}
 
 a:focus {
 	outline: none;

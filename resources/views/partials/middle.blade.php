@@ -1,6 +1,6 @@
-  <div id="services" class="container middle mt-5 mb-0">
-  	<div class="d-flex justify-content-center">
-  		<div class="card text-center">
+<div id="services" class="container middle mt-5 mb-0">
+    <div class="d-flex justify-content-center">
+      <div class="card text-center">
         <div class="card-header pb-1" >
           · ¿Qué ofrecémos? ·
         </div>
@@ -12,12 +12,15 @@
       </div>
     </div>
   </div>
-        <hr style="border-bottom:#34495e solid 1px;">
+
+
+      
+ <div class="wrapper">
         
   <div class="container middle mt-5 mb-0">
-    <p class="card-text text-center pt-0" >Ventajas y Benefícios</p>
+    <p class="card-text text-center pt-5" style="color: #a4b0be;font-weight: bolder;" >· Ventajas y Benefícios ·</p>
     <div class="d-flex justify-content-center">
-      <div class="card text-center">
+      <div class="card text-center" style="border:none;">
         <div class="card-body">
           <!-- cards -->
 
@@ -54,17 +57,24 @@
     </div>
   </div>
 </div>
-    <div class="text-center mt-5 mb-4 quote">
+<div class="text-center mt-5 mb-4 quote">
        <p class="mb-0 active">Tu sitio web te promueve <strong style="color: #3498db;">24/7</strong>.</p>
           <footer class="blockquote-footer"><cite title="Source Title">Krewbit</cite></footer>
-    </div>
+</div>
+</div>
  
 
 
 <style>
+
+  .wrapper{
+     background: linear-gradient(to bottom, #043760 50%, #000 50%);
+  }
+
   .middle{
     color: #ecf0f1;
     font-family: 'Rajdhani',sans-serif;
+   
 
   }
 	.nc-icon{
@@ -82,12 +92,12 @@
 	}
 	
 	.middle .card-deck .card{
-		border-color: rgba(41, 128, 185,.7);
-    background: rgb(0,0,0);
-    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(69,72,77,.3) 100%);
-    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 );
+    border:none;
+    background: rgb(69,72,77);
+    background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 70%);
+    background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 70%);
+    background: linear-gradient(to bottom,rgba(69,72,77,1) 0%, rgba(0,0,0,1)  70%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
 	}
 
 
@@ -99,7 +109,7 @@
   }
 
 	.middle .card h4 {
-		color: rgba(41, 128, 185,.7);
+		color: rgba(41, 128, 185,1);
     font-family: 'Jura', sans-serif;
 	}
 
@@ -121,9 +131,23 @@
   -webkit-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
+
 }
 
 @media (max-width: 49em) {
+
+   .wrapper{
+     background: #000;
+  }
+
+  .middle .card-deck .card{
+    background: rgb(69,72,77);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(69,72,77,.3) 70%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,.3) 70%);
+    background: linear-gradient(to bottom,rgba(0,0,0,1) 0%, rgba(69,72,77,.3)  70%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+  }
+
 
   .middle .card {
     -o-transform: none !important;
@@ -147,7 +171,7 @@
   }
 
     .middle .card-deck .card:last-child {
-    
+
     border-top-left-radius:0; 
     border-top-right-radius:0;
     background: rgb(69,72,77);
@@ -159,7 +183,7 @@
   }
 
     .middle .card-deck .card:not(:first-child):not(:last-child){
-    
+      
       border-radius:0; 
       border-bottom-color: transparent;
       border-top-color: transparent;
