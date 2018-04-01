@@ -44,10 +44,20 @@ License - nucleoapp.com/license/
 .nc-icon.circle {
   padding: 0.33333333em;
   vertical-align: -16%;
-  background-color: #eee;
+  background-color: transparent;
+  border: solid 3.5px #2980b9;
+  border-radius: 10%;
 }
 .nc-icon.circle {
   border-radius: 50%;
+}
+.nc-icon.square-light{
+
+  padding: 0.33333333em;
+  vertical-align: -16%;
+  background-color: transparent;
+  border: solid 3.5px #95a5a6;
+  border-radius: 10%;
 }
 /*------------------------
   list icons

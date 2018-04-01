@@ -1,4 +1,4 @@
-<div id="home" class="header d-none d-md-block d-lg-block d-xs-none">
+<div id="top" class="header d-none d-md-block d-lg-block d-xs-none">
 <svg class="hidden">
       <symbol id="icon-menu" viewBox="0 0 24 24">
  
@@ -50,13 +50,13 @@
           </div>
           </nav>
 <div class="hover"></div>
-       <div class="tiles" style="background-image: url(/img/brandheader.jpg)"></div>
+       <div class="tiles" style="background-image: url(/img/brandheader.png)"></div>
           <div class="menu" style="font-family: 'Roboto Mono', monospace; font-size: 1em; text-transform: lowercase; color:#585656" >
             <ul class="menu__inner">
               <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>Diseño de Interfaces</a></li>
-              <li class="menu__item"><a class="menu__link" data-switch>Portafolio</a></li>
-              <li class="menu__item active"><a class="menu__link" data-switch>Proyectos</a></li>
-              <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>Inspiraciones</a></li>
+              <li class="menu__item"><a class="menu__link" data-switch>E-commerce</a></li>
+              <li class="menu__item active"><a class="menu__link" data-switch>Dynamic Apps</a></li>
+              <!-- <li class="menu__item" data-switch data-glitch><a class="menu__link" data-switch>Inspiraciones</a></li> -->
             </ul>
           </div>
           <div class="menu menu--code" style="display: none;">

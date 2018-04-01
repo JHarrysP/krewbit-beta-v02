@@ -6,7 +6,7 @@
 			</div>
 
 			<div class="col-md-4">
-				<a href="#home" style="text-decoration: none; color: #2980b9;"><h6 class="d-inline">#volver al inicio</h6><span><i class="nc-icon nc-minimal-up d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span></a>
+				<a href="#top" style="text-decoration: none; color: #2980b9;"><h6 class="d-inline">#volver al inicio</h6><span><i class="nc-icon nc-minimal-up d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span></a>
 
 			</div>
 

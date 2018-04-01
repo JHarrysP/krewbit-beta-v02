@@ -18,7 +18,7 @@
  <div class="wrapper">
         
   <div class="container middle mt-5 mb-0">
-    <p class="card-text text-center pt-5" style="color: #a4b0be;font-weight: bolder;" >· Ventajas y Benefícios ·</p>
+    <p class="card-text text-center pt-5" >· Ventajas y Benefícios ·</p>
     <div class="d-flex justify-content-center">
       <div class="card text-center" style="border:none;">
         <div class="card-body">
@@ -27,25 +27,25 @@
        
           <div class="card-deck pt-2">
             <div class="card pt-5 pb-4">
-              <span ><i class="nc-icon x3 nc-spaceship"></i></span>
+              <span ><i class="nc-icon square x3 nc-spaceship" style="color: rgba(41, 128, 185,1);"></i></span>
               <div class="card-body">
-                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name">Alcance</h4>
+                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name mr-3" style="font-weight: bold;">Alcance</h4>
                 <p class="card-text item_content" data-glitch>La imagen de tu empresa en la web genera curiosidad e impacto inmediato para que el público quiera saber más.</p>
                 <p class="card-text"><small class="text-muted profit">Ocupas un lugar en la mente del cliente</small></p>
               </div>
             </div>
             <div class="card pt-5 pb-4">
-              <span><i class="nc-icon x3 nc-tag-content"></i></span>
+              <span><i class="nc-icon square x3 nc-tag-content" style="color: rgba(41, 128, 185,1);"></i></span>
               <div class="card-body">
-                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name">Posicionamiento</h4>
+                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name mr-3" style="font-weight: bold;">Posicionamiento</h4>
                 <p class="card-text item_content" data-glitch>Tu identidad digital crea nuevas tendencias para que el consumidor sienta empatía y sea fiel a tu marca.</p>
                 <p class="card-text"><small class="text-muted profit">Diferencias tu empresa de la competencia</small></p>
               </div>
             </div>
             <div class="card pt-5 pb-4">
-              <span><i class="nc-icon x3 nc-money-coins"></i></span>
+              <span><i class="nc-icon square x3 nc-money-coins" style="color: rgba(41, 128, 185,1);"></i></span>
               <div class="card-body">
-                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name">Productividad</h4>
+                <span class="d-inline"><strong class="d-inline pr-3 pt-2 item"></strong></span>&nbsp;<h4 class="card-title d-inline item_name mr-3" style="font-weight: bold;">Productividad</h4>
                 <p class="card-text item_content" data-glitch>El público esta dispuesto a pagar un plus de marca, ya que tu identidad digital sería una garantía de calidad superior</p>
                 <p class="card-text"><small class="text-muted profit">Obtienes mayores ingresos</small></p>
               </div>
@@ -98,6 +98,7 @@
     background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 70%);
     background: linear-gradient(to bottom,rgba(69,72,77,1) 0%, rgba(0,0,0,1)  70%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+   box-shadow: 10px 10px 1px rgba(0,0,0,1) ;
 	}
 
 
@@ -114,7 +115,8 @@
 	}
 
 	.middle .text-muted.profit {
-		color:#e67e22 !important;
+		color:#ff3366 !important;
+    font-weight: bold;
 	}
   
  .quote{

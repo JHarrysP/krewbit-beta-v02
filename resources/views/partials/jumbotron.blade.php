@@ -1,6 +1,6 @@
 <div class="jumbotron text-center mb-0">
   <h1 class="display-5">LA PRIMERA IMPRESION QUEDA</h1>
-  <p class="lead">Tu <em style="color: #2f3542;font-weight: 600;" >Identidad Digital</em> te permite ser reconocido.</p>
+  <p class="lead">Tu <em style="color: #2f3542;font-weight: 600;" >Identidad Digital</em> te permite ser reconocido y tu sitio web <br> facilitarà tu proyección dentro del mercado.</p>
  <div class="row">
  <div class="col-md-3"></div>
  	 <div class="offset-md-5 col-md-6 mt-1">
@@ -22,13 +22,14 @@
 
 <style>
 	.jumbotron{
-		background-color: #f1f2f6;
+		
+		  background:linear-gradient(-45deg, rgba(236,240,241,.5) 0%,rgba(189,195,199,1) 50%,rgba(127,140,141,1) 100%),url(img/bg.jpg);
+		  background-size:contain;
+		  background-repeat: no-repeat;
+		  background-position: right;
 		color: #747d8c;
 		border-radius: 0;
-		background-image: url();
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: right;
+
 		font-family: 'Jura',sans-serif;
 		font-weight: 600;
 		border:none;
@@ -39,7 +40,7 @@
 	}
 	.sub-header{
 		font-family: 'Jura',sans-serif;
-		color:#2980b9;
+		color: #747d8c;
 		 text-transform: uppercase;
 	}
 	
@@ -53,16 +54,16 @@
  	    text-transform: uppercase;
  	    font-size: .7em;
  	    font-weight: bolder;
-		border: solid 1px #fff;
+		/*border: solid 1px #fff;*/
  	    width: 100%;
  	    font-family: 'Rajdhani',sans-serif;
 	}
 
 	.btn-header:hover{
 		text-decoration: none;
-		border: solid 1px #ff3366;
+		/*border: solid 1px #ff3366;
 		color: #ff3366;
-
+*/
 
 	}
 	.btn-header:hover  a{
