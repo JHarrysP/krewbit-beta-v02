@@ -5,7 +5,7 @@
 
        <div class="card text-center">
         <div class="card-body mb-0">
-          <h2 class="card-title mb-0 pb-3" style=" text-transform: uppercase; color: #3498db;">Desarrollo de Imagen</h2>
+          <h2 class="card-title  pb-3" style=" text-transform: uppercase; color: #3498db;">Desarrollo de Imagen</h2>
           <span><i class="nc-icon nc-minimal-down d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span>
         </div> 
       </div>
@@ -21,9 +21,9 @@
 <div class="row mt-5 justify-content-center">
 <div class="col-md-12 text-center">
      <div class="binary mt-0 mb-5" data-glitch>
-                  <h4 class="card-title">diseño</h4>
+                  <h4 class="card-title">· diseño ·</h4>
                   <h4 class="card-title">101010101</h4>
-                  <h4 class="card-title">design</h4>
+                  <h4 class="card-title">· design ·</h4>
 </div> 
 <div class="card-deck">
      
@@ -79,9 +79,9 @@
 <div class="row mt-5 justify-content-center">
   <div class="col-md-12 text-center">
      <div class="binary mt-0 mb-5" data-glitch>
-                  <h4 class="card-title">Programación</h4>
+                  <h4 class="card-title">· Programación ·</h4>
                   <h4 class="card-title">101010101</h4>
-                  <h4 class="card-title">Coding</h4>
+                  <h4 class="card-title">· Coding ·</h4>
 </div>   
 <div class="card-deck">
           <div class="card card-services text-center">

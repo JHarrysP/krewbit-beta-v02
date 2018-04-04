@@ -19,7 +19,7 @@
         
 
   <div class="container middle pt-0 mb-0">
-    <p class="card-text text-center pt-2" >· Ventajas y Benefícios ·</p>
+    <p class="card-text text-center pt-5" >· Ventajas y Benefícios ·</p>
     <div class="d-flex justify-content-center">
       <div class="card text-center" style="border:none;">
         <div class="card-body">

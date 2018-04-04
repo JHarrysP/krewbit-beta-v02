@@ -2,7 +2,7 @@ $.fn.ticker = function( options ) {
     
     options = $.extend({
         uppercase: true,
-        extra: '#/',
+        extra: '#/·',
         speed: 50
     }, options);
     
