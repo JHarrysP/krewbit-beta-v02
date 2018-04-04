@@ -6,7 +6,7 @@
 
 <div class="navbar-offcanvas  navbar-offcanvas-touch " id="navbarNavAltMarkup">
   <div class="navbar-nav ">
-    <p><a class="nav-item nav-link active" href="#home">#Top<span class="sr-only">(current)</span></a></p>
+    <p><a class="nav-item nav-link active" href="#top">#Top<span class="sr-only">(current)</span></a></p>
     <p><a class="nav-link" href="#">·</a></p>
     <p><a class="nav-item nav-link hold" href="#services">#Servicios</a></p>
     <p><a class="nav-link" href="#">·</a></p>
@@ -45,15 +45,15 @@
   }
 
   .navbar-nav .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #ff3366;
+  border-bottom-color: #ff3366;
   }
 
-   p a {
+/*   p a {
   	 animation: text-flicker 20s linear infinite;
   	 
 
-  }
+  }*/
 
 
  .active{
@@ -267,25 +267,29 @@
   }
 }
 }
-@media (max-width: 49em) {
+@media (max-width: 50em) {
 	   .navbar-offcanvas{
 
-   	background-color: #000;
-   	color: #ecf0f1;
+   	background-color: rgba(0,0,0,.7);
+   	color: #ff3366;
    	font-weight: lighter;
    	font-family: 'Jura', sans-serif;
    	font-size: .8rem;
     overflow:hidden;
 
    }
+   .navbar-dark .navbar-nav .nav-link.active{
+    color:  #ff3366;
+   }
 
-  .navbar-nav .nav-link {
+  .navbar-dark .navbar-nav .nav-link {
 
-  color: #ecf0f1;
-  background-color: #000;
+  color: rgba(7, 153, 146,1.0);
+
  
   
   }	
+
 	
 }
 </style>

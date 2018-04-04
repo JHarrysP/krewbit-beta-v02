@@ -20,7 +20,7 @@
 	width: 100%;
 	height: 100%;
 	top: 0;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -29,7 +29,26 @@
 	color: #e04643;
 }
 
-.content .pieces {
+.page-nav--open{
+	display: flex;
+}
+.hover{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top:25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+
+.hover--open{
+	display: none;
+}
+
+.content .tiles {
 	height: var(--pieces-height);
 	width: calc(var(--pieces-height) * calc(1000/1000));
 	position: absolute;
@@ -40,7 +59,7 @@
 	pointer-events: none;
 }
 
-.pieces {
+.tiles {
 	display: flex;
 	flex-wrap: wrap;
 	background-size: 100% auto;

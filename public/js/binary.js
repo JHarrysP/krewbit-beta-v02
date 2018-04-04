@@ -48,7 +48,7 @@ $.fn.ticker = function( options ) {
 
         target.click(function(e) {
 
-            console.log('exe');
+            
       
             var next = fill(texts[k].split('')),
                 prev = fill(target.data('prev').split('')),

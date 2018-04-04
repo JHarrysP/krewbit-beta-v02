@@ -1,11 +1,18 @@
 @extends('layout')
 
-@section('body')
 
+	@section('header')
 
 	@include('partials.navbar')
 
+	@include('partials.mobile-header')
+
 	@include('partials.header')
+
+	@endsection
+
+
+	@section('body')
 
 	@include('partials.divider')
 
@@ -17,8 +24,17 @@
 
 	@include('partials.services')
 
+	@include('partials.mobile-services')
+
+	@endsection
+	
+
+	@section('footer')
+
 	@include('partials.divider')
 
 	@include('partials.footer')
+
+	@endsection
+
 	
-@endsection
