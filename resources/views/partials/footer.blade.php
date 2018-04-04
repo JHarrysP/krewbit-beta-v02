@@ -18,7 +18,7 @@
 		</div>
 	</div>	
 	<div class="row w-100 justify-content-center align-items-end">
-			<p class="company">©2015-2017 Ingenieria Kinetic, C.A</p>
+			<p class="company">©2015-2018 Ingenieria Kinetic, C.A</p>
 	</div>
 </footer>
 
@@ -41,7 +41,7 @@ footer{
  p.company{
   	font-family: 'Michroma',sans-serif;
   	font-size: 0.7em;
-  	color: #313131;
+  	color: #c3c3c3;
   	
   	
   }
