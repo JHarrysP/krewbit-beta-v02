@@ -45,8 +45,8 @@
   }
 
   .navbar-nav .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #ff3366;
+  border-bottom-color: #ff3366;
   }
 
 /*   p a {
@@ -270,8 +270,8 @@
 @media (max-width: 50em) {
 	   .navbar-offcanvas{
 
-   	background-color: #ecf0f1;
-   	color: #313131;
+   	background-color: rgba(0,0,0,.7);
+   	color: #ff3366;
    	font-weight: lighter;
    	font-family: 'Jura', sans-serif;
    	font-size: .8rem;
@@ -279,12 +279,12 @@
 
    }
    .navbar-dark .navbar-nav .nav-link.active{
-    color: #2c3e50;
+    color:  #ff3366;
    }
 
   .navbar-dark .navbar-nav .nav-link {
 
-  color: #2980b9;
+  color: rgba(7, 153, 146,1.0);
 
  
   

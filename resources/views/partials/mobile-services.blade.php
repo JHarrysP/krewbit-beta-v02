@@ -1,4 +1,4 @@
-<div class="d-none d-md-block d-lg-block d-xs-none" >
+<div class="d-xs-block d-md-none d-lg-none">
 <div class="container bottom pt-0">
 <div class="d-flex justify-content-center">
 <div class="row">
@@ -20,17 +20,13 @@
 <div class="container bottom pb-5 pt-1 ">      
 <div class="row mt-5 justify-content-center">
 <div class="col-md-12 text-center">
-     <div class="binary mt-0 mb-5" data-glitch>
-                  <h4 class="card-title">diseño</h4>
-                  <h4 class="card-title">101010101</h4>
-                  <h4 class="card-title">design</h4>
-</div> 
+<div class=" mt-0 mb-5" data-glitch><h5 class="card-title">Diseño</h5></div> 
 <div class="card-deck">
      
         <div class="card card-services text-center">
           <div class="card-header" >(Mockup)</div>
-        <div class="card-body mt-5">
-            <h4 class="card-title">Unión de Propuestas</h4>
+        <div class="card-body">
+            <h5 class="card-title">Unión de Propuestas</h5>
             <p class="card-description">
               Tu imagen debe ir más allá de un logo, por eso te ayudamos a encontrar la armonia gráfica que necesitas...
           </p>
@@ -48,8 +44,8 @@
   <br>
         <div class="card card-services text-center">
           <div class="card-header" >(UI/UX)</div>
-        <div class="card-body mt-5">
-            <h4 class="card-title" data-glitch>Imagen Digital</h4>
+        <div class="card-body">
+            <h5 class="card-title" data-glitch>Imagen Digital</h5>
             <p class="card-description">
              Una interfaz de usuario adecuada y fluida es fundamental para capturar la atención...
          </p>
@@ -77,17 +73,15 @@
 <div class="container bottom pt-1">   
     
 <div class="row mt-5 justify-content-center">
-  <div class="col-md-12 text-center">
-     <div class="binary mt-0 mb-5" data-glitch>
-                  <h4 class="card-title">Programación</h4>
-                  <h4 class="card-title">101010101</h4>
-                  <h4 class="card-title">Coding</h4>
-</div>   
+<div class="col-md-12 text-center">
+<div class=" mt-0 mb-5" data-glitch><h5 class="card-title">
+    Programación
+</h5></div>  
 <div class="card-deck">
           <div class="card card-services text-center">
           <div class="card-header" >(SEO)</div>
-        <div class="card-body mt-5">
-            <h4 class="card-title" data-glitch>Presencia en la web</h4>
+        <div class="card-body">
+            <h5 class="card-title" data-glitch>Presencia en la web</h5>
  <p class="card-description">
                            El fácil acceso a la información a través de la red vuelve indispensable poseer una Identidad Digital...
                         </p>
@@ -106,8 +100,8 @@
     <br>
             <div class="card card-services text-center">
           <div class="card-header" >Actualizacion y Migración (Framework & Database)</div>
-        <div class="card-body mt-5">
-            <h4 class="card-title">Ultimas Tendencias</h4>
+        <div class="card-body">
+            <h5 class="card-title">Ultimas Tendencias</h5>
  <p class="card-description">
                            La web evoluciona constantemente y con ello los lenguajes , estilos y tecnologias que se implementan...
 
@@ -122,7 +116,7 @@
    </div>
 
    <div class="card-footer ">
-    "Diseño sin funcionalidad es como un auto sin motor"
+    "Un diseño sin funcionalidad es un auto sin motor"
     </div>
     </div>
 
@@ -137,9 +131,9 @@
 </div>
 
 
-
 <style>
 
+@media (max-width: 49em) {
   .services-wrapper-top{
     background:linear-gradient(-45deg, rgba(74, 105, 189,1.0) 0%,rgba(74, 105, 189,1.0) 65%,rgba(74, 105, 189,.5) 100%),url(img/bg.jpg);
 		  background-size:contain;
@@ -155,6 +149,7 @@
   }
 
   .bottom{
+    font-size:14px;
     color: #ecf0f1;
     font-family: 'Rajdhani',sans-serif;
 
@@ -179,7 +174,8 @@
     .bottom .card.card-services .card-header{
       border-bottom-color:#212529;
       background-color: #6a89cc; 
-      border-radius: 5px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
     }
     
     .bottom .card.card-img{
@@ -189,7 +185,10 @@
     }
 
     .bottom .card.card-services .card-body{
-          border-radius: 5px ;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
           border-right: solid 1px #212529;
           background: rgb(69,72,77);
           background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
@@ -208,11 +207,14 @@
       color: #3498db;
     } 
 
-    .bottom .card h4 {
+    .bottom .card h5 {
         color: #6a89cc;
     font-family: 'Jura', sans-serif;
     }
-    
+    .bottom .card h2 {
+    font-size:22px;
+
+	}
     .bottom .card-footer{
         color: #ecf0f1;
         border:none;
@@ -231,6 +233,6 @@
      color: #c3c3c3;
      
   }
-
+}
 
 </style>

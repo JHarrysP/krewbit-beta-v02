@@ -1,4 +1,4 @@
-<div id="services" class="container middle mt-5 mb-0">
+<div class="container middle mt-5 mb-0">
     <div class="d-flex justify-content-center">
       <div class="card text-center">
         <div class="card-header pb-1" >
@@ -68,7 +68,7 @@
 <style>
 
   .wrapper{
-     background: linear-gradient(to bottom, #043760 50%, #000 50%);
+     background: linear-gradient(to bottom, #4a69bd 50%, #000 50%);
   }
 
   .middle{
@@ -152,6 +152,7 @@
 
 
   .middle .card {
+    font-size:14px;
     -o-transform: none !important;
     -moz-transform: none !important;
     -ms-transform: none !important;
@@ -192,7 +193,16 @@
       background: rgba(69,72,77,.3);
    
   }
+  .middle .card h2 {
+    font-size:22px;
 
+	}
+
+	.middle .card h4 {
+    font-size:16px;
+		color: rgba(41, 128, 185,1);
+    font-family: 'Jura', sans-serif;
+	}
 
 
 

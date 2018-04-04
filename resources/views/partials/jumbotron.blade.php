@@ -12,14 +12,14 @@
   <p class="sub-header">Crea con nosotros el portal a tu empresa</p>
 <div class="row justify-content-center">
 	  <div class="col-md-2">
-  	 <p class="lead mb-0">
+  	 <p  class="lead mb-0">
 <button class="btn-lg btn-header"><a href="#" style="text-decoration: none;">· Construye tu sitio ·</a></button>
   </p>
   </div>
 </div>
  
 </div>
-
+<div id="services" ></div>
 <style>
 	.jumbotron{
 		
@@ -27,8 +27,8 @@
 		  background-size:contain;
 		  background-repeat: no-repeat;
 		  background-position: right;
-		color: #747d8c;
-		border-radius: 0;
+		  color: #747d8c;
+	      border-radius: 0;
 
 		font-family: 'Jura',sans-serif;
 		font-weight: 600;
@@ -68,6 +68,32 @@
 	}
 	.btn-header:hover  a{
 	color: #ff3366;
+	}
+	@media (max-width: 49em) {
+
+.jumbotron{
+		font-size:14px;
+		background:linear-gradient(-45deg, rgba(236,240,241,.5) 0%,rgba(189,195,199,1) 50%,rgba(127,140,141,1) 100%);
+		background-size:contain;
+		background-repeat: no-repeat;
+		background-position: right;
+		color: #747d8c;
+		border-radius: 0;
+	    font-family: 'Jura',sans-serif;
+	    font-weight: 600;
+	    border:none;
+
+  }
+  .jumbotron .lead{
+		font-size:16px;
+	
+	}
+
+  	.jumbotron h1{
+		font-size:22px;
+		color:#2980b9;
+	}
+
 	}
 
 </style>

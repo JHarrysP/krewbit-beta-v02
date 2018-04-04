@@ -221,8 +221,8 @@
             optionsCtrl.addEventListener('click', showOptions);
             closeOptionsCtrl.addEventListener('click', hideOptions);
             hoverItem.addEventListener('mouseenter', randomizeTilts);
-            hoverTrigger.addEventListener('mouseenter', randomizeTilts);
-            hoverTrigger.addEventListener('mouseleave', rearrangeTiles);
+            // hoverTrigger.addEventListener('mouseenter', randomizeTilts);
+            // hoverTrigger.addEventListener('mouseleave', rearrangeTiles);
         }
         </script>
 </html>

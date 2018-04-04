@@ -24,6 +24,8 @@
 
 	@include('partials.services')
 
+	@include('partials.mobile-services')
+
 	@endsection
 	
 
