@@ -5,7 +5,7 @@
           · ¿Qué ofrecémos? ·
         </div>
         <div class="card-body">
-          <h2 class="card-title" style="text-transform: uppercase; color: #3498db;">Identidad Digital</h2>
+          <h2 class="card-title pb-3" style="text-transform: uppercase; color: #3498db;">Identidad Digital</h2>
           <span ><i class="nc-icon nc-minimal-down d-inline px-3 " style="font-size: .6em; color: #ff3366;"></i></span>
           
         </div>
@@ -17,8 +17,8 @@
       
  <div class="wrapper">
         
-  <div class="container middle mt-5 mb-0">
-    <p class="card-text text-center pt-5" >· Ventajas y Benefícios ·</p>
+  <div class="container middle pt-0 mb-0">
+    <p class="card-text text-center pt-2" >· Ventajas y Benefícios ·</p>
     <div class="d-flex justify-content-center">
       <div class="card text-center" style="border:none;">
         <div class="card-body">
