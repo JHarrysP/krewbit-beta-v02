@@ -23,7 +23,7 @@
 <style>
 	.jumbotron{
 		
-		  background:linear-gradient(-45deg, rgba(236,240,241,.5) 0%,rgba(189,195,199,1) 50%,rgba(127,140,141,1) 100%),url(img/bg.jpg);
+		  background:linear-gradient(-45deg, rgba(236,240,241,.5) 0%,rgba(236, 240, 241,1.0) 50%,rgba(255,255,255,1) 100%),url(img/bg.jpg);
 		  background-size:contain;
 		  background-repeat: no-repeat;
 		  background-position: right;

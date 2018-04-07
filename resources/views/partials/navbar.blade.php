@@ -6,7 +6,8 @@
 
 <div class="navbar-offcanvas  navbar-offcanvas-touch " id="navbarNavAltMarkup">
   <div class="navbar-nav ">
-    <p><a class="nav-item nav-link active" href="#top">#Top<span class="sr-only">(current)</span></a></p>
+    <p><a class="nav-item nav-link active d-xs-block d-md-none  d-lg-none" href="#top">#Top<span class="sr-only">(current)</span></a></p>
+    <p><a class="nav-item nav-link active d-none d-md-block d-lg-block d-xs-none" href="#top">#Top<span class="sr-only">(current)</span></a></p>
     <p><a class="nav-link" href="#">·</a></p>
     <p><a class="nav-item nav-link hold" href="#services">#Servicios</a></p>
     <p><a class="nav-link" href="#">·</a></p>
